@@ -1,12 +1,14 @@
 body{
     margin: 0%;
     font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
 }
 header{
     padding-top: 35px;
     padding-left: 50px;
     color: whitesmoke;
     background-image: url(prothomalo-english_2021-07_3f4eefef-a188-4e28-949a-dbd17a326219_11.webp); 
+    background-size: cover;
     padding-bottom: 15%;
     background-repeat: no-repeat;
     
@@ -118,6 +120,11 @@ header{
     color: red;
     font-weight: 800;
     font-size: 20px;
+}
+.btx img{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
 }
 
 .lastfx{
